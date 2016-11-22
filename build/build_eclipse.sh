@@ -3,10 +3,9 @@
 
 NBARGS=2
 function print_usage() {
-    echo
-    echo "Usage: $0 <eclipse_directory> <repository_url>"
-    echo "    <eclipse_directory>           The directory where Eclipse will be installed"
-    echo "    <repository_url>              The repository URL (e.g. http://eclipse.turnus.co or file:/user/local/path)"
+    echo "Usage: $0 <workspace> <empty_maven_repository>"
+    echo "    <workspace>               The directory where plugins are builded"
+    echo "    <empty_maven_repository>  (optional) use an empty maven repository"
 }
 
 if [ $# -lt $NBARGS ]; then
