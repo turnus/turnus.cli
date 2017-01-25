@@ -1,5 +1,5 @@
 #!/bin/bash
-## Build the TURNUS eclipse plugins by command line
+## Build the TURNUS core project
 
 NBARGS=1
 function print_usage() {
@@ -34,9 +34,7 @@ rm -fR turnus*
 
 git clone https://github.com/turnus/turnus.git
 git clone https://github.com/turnus/turnus.core.git
-git clone https://github.com/turnus/turnus.orcc.git
-git clone https://github.com/turnus/turnus.p2.git
-cd turnus.p2
+cd turnus.core
 
 # create if necessary the maven repository directory
 if [ -z "$MAVEN" ]; then
