@@ -33,7 +33,6 @@ cd $WORKSPACE
 rm -fR turnus*
 
 git clone https://github.com/turnus/turnus.git
-git clone https://github.com/turnus/turnus.core.git
 git clone https://github.com/turnus/turnus.orcc.git
 git clone https://github.com/turnus/turnus.p2.git
 cd turnus.p2
