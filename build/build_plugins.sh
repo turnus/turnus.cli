@@ -3,8 +3,8 @@
 
 NBARGS=1
 function print_usage() {
-    echo "Usage: $0 <workspace> <empty_maven_repository>"
-    echo "    <workspace>         The directory where plugins are builded"
+    echo "Usage: $0 <bin> <empty_maven_repository>"
+    echo "    <bin>               The directory where plugins are builded"
     echo "    <maven_repository>  (optional) the local maven repository path (if specified, current data will be erased)"
 }
 
